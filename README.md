@@ -129,7 +129,7 @@ In order to use <strong>Awesome Print</strong> as default formatter Rails Consol
 
 <br>
 <hr>
-##<a name="mixins"></a>does <a href="https://github.com/michaeldv/awesome_print" style="text-decoration: none" target="_blank">awesome print</a> work well anywhere else in rails? or anywhere else?
+##<a name="mixins"></a>does <a href="https://github.com/michaeldv/awesome_print" style="text-decoration: none" target="_blank">awesome print</a> work well anywhere else in rails? or in another way?
 
 There are a few more tricks. 
 ###logger convenience method
@@ -160,7 +160,7 @@ If you are working in Sinatra or other web frameworks, you can explicitly reques
 <br>
 <hr>
 ##are there any other gems that <a href="https://github.com/michaeldv/awesome_print" style="text-decoration: none" target="_blank">awesome print</a> can work with?
-How about maybe Pry? Pry is a great gem in and of itself for debuggin and other features, but with <strong>Awesome Print</strong> in tow, it makes viewing errors and fixing them just that much easier.
+How about maybe Pry? <a href="https://github.com/pry/pry" style="text-decoration: none" target="_blank">Pry</a> is a great gem in and of itself for debuggin and other features, but with <strong>Awesome Print</strong> in tow, it makes viewing errors and fixing them just that much easier.
 
 All you need to do is add the following snippet of code to your ~/.pryrc file...
 
