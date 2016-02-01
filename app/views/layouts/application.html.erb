@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>GemTest : Awesome Print + Quite Assets + NewRelic + Simplenavigation</title>
+ 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+ 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+ 	<%= csrf_meta_tags %>
+</head>
+<body>
+	<h1>No2Pencil</h1>
+	<%= render_navigation(:level => 1, :expand_all => false)%>
+	<%= yield %>
+</body>
+</html>

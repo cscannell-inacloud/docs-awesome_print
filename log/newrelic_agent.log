@@ -1,0 +1,444 @@
+# Logfile created on 2016-01-27 12:53:11 -0500 by logger.rb/47272
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] WARN : No configuration file found. Working directory = /Users/kferk/Desktop/ap_test
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] WARN : Looked in these locations (based on defaults): /Users/kferk/Desktop/ap_test/config/newrelic.yml, /Users/kferk/Desktop/ap_test/newrelic.yml, /Users/kferk/Desktop/ap_test/config/newrelic.yml, /Users/kferk/Desktop/ap_test/newrelic.yml, /Users/kferk/.newrelic/newrelic.yml, /Users/kferk/newrelic.yml
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] INFO : Environment: development
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] INFO : No known dispatcher detected.
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] INFO : Application: development
+[2016-01-27 12:53:11 -0500 Ferks-MBP.local (33646)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing ActiveJob instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Net instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Rails 4 view instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-27 12:53:12 -0500 Ferks-MBP.local (33646)] INFO : Finished instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Environment: development
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Dispatcher: webrick
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Application: My Application (Development)
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing ActiveJob instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Net instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Rails 4 view instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-27 12:55:58 -0500 Ferks-MBP.local (33649)] INFO : Finished instrumentation
+[2016-01-27 12:55:59 -0500 Ferks-MBP.local (33649)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-01-27 12:56:00 -0500 Ferks-MBP.local (33649)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-27 12:58:32 -0500 Ferks-MBP.local (33649)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Environment: development
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : No known dispatcher detected.
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Application: My Application (Development)
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing ActiveJob instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Net instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Rails 4 view instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-27 12:59:03 -0500 Ferks-MBP.local (33692)] INFO : Finished instrumentation
+[2016-01-27 12:59:05 -0500 Ferks-MBP.local (33692)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-27 12:59:10 -0500 Ferks-MBP.local (33649)] INFO : Starting Agent shutdown
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Environment: development
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Dispatcher: webrick
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Application: My Application (Development)
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing ActiveJob instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Net instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Rails 4 view instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Finished instrumentation
+[2016-01-27 12:59:44 -0500 Ferks-MBP.local (33711)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-01-27 12:59:45 -0500 Ferks-MBP.local (33711)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-27 13:06:23 -0500 Ferks-MBP.local (33711)] INFO : Starting Agent shutdown
+[2016-01-27 15:38:59 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-27 15:38:59 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.000955 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-27 15:39:00 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-27 15:39:00 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.001753 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-27 15:39:00 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-27 15:39:00 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.001035 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-27 17:36:06 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-27 17:36:06 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.606445 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-27 17:36:06 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-27 17:36:06 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.002827 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-27 21:19:01 -0500 Ferks-MBP.local (33770)] INFO : Starting Agent shutdown
+[2016-01-28 07:53:06 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:53:06 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.117976 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:53:36 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:53:36 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.030423 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:54:08 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:54:08 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.144525 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:54:38 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:54:38 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.134584 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:55:08 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:55:08 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.140907 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:55:38 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:55:38 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.148689 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:56:08 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:56:08 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.01659 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:56:43 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:56:43 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 35.001565 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:57:13 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:57:13 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.002743 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:57:43 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:57:43 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.058103 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:58:18 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:58:18 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 35.006313 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:58:49 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:58:49 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.055507 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:59:19 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 07:59:19 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.053435 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 07:59:48 -0500 Ferks-MBP.local (33692)] INFO : Starting Agent shutdown
+[2016-01-28 07:59:49 -0500 Ferks-MBP.local (33692)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 07:59:49 -0500 Ferks-MBP.local (33692)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.002689 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Environment: development
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : No known dispatcher detected.
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Application: My Application (Development)
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing ActiveJob instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Net instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Rails 4 view instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-28 10:36:39 -0500 Ferks-MBP.local (1302)] INFO : Finished instrumentation
+[2016-01-28 10:36:41 -0500 Ferks-MBP.local (1302)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-28 10:37:02 -0500 Ferks-MBP.local (1318)] INFO : Starting Agent shutdown
+[2016-01-28 10:57:16 -0500 Ferks-MBP.local (1478)] INFO : Starting Agent shutdown
+[2016-01-28 11:26:19 -0500 Ferks-MBP.local (1494)] INFO : Starting Agent shutdown
+[2016-01-28 11:32:16 -0500 Ferks-MBP.local (1859)] INFO : Starting Agent shutdown
+[2016-01-28 11:50:33 -0500 Ferks-MBP.local (2079)] INFO : Starting Agent shutdown
+[2016-01-28 12:01:54 -0500 Ferks-MBP.local (2100)] INFO : Starting Agent shutdown
+[2016-01-28 12:56:17 -0500 Ferks-MBP.local (2241)] INFO : Starting Agent shutdown
+[2016-01-28 13:34:53 -0500 Ferks-MBP.local (2888)] INFO : Starting Agent shutdown
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Environment: development
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : No known dispatcher detected.
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Application: My Application (Development)
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing ActiveJob instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Net instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Rails 4 view instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-28 15:54:19 -0500 Ferks-MBP.local (4156)] INFO : Finished instrumentation
+[2016-01-28 15:54:21 -0500 Ferks-MBP.local (4156)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-28 15:54:45 -0500 Ferks-MBP.local (4156)] INFO : Starting Agent shutdown
+[2016-01-28 15:54:45 -0500 Ferks-MBP.local (3237)] INFO : Starting Agent shutdown
+[2016-01-28 15:54:46 -0500 Ferks-MBP.local (1302)] INFO : Starting Agent shutdown
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Environment: development
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : No known dispatcher detected.
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Application: My Application (Development)
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing ActiveJob instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Net instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Rails 4 view instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-28 15:59:30 -0500 Ferks-MBP.local (4275)] INFO : Finished instrumentation
+[2016-01-28 15:59:31 -0500 Ferks-MBP.local (4291)] INFO : Starting Agent shutdown
+[2016-01-28 15:59:31 -0500 Ferks-MBP.local (4275)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Environment: development
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Dispatcher: webrick
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Application: My Application (Development)
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing ActiveJob instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Net instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Rails 4 view instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Finished instrumentation
+[2016-01-28 16:46:14 -0500 Ferks-MBP.local (4469)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-01-28 16:46:15 -0500 Ferks-MBP.local (4469)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-28 16:50:17 -0500 Ferks-MBP.local (4275)] INFO : Starting Agent shutdown
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Environment: development
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : No known dispatcher detected.
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Application: My Application (Development)
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing ActiveJob instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Net instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Rails 4 view instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-28 16:50:18 -0500 Ferks-MBP.local (4510)] INFO : Finished instrumentation
+[2016-01-28 16:50:19 -0500 Ferks-MBP.local (4510)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-28 19:40:10 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 19:40:10 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.001155 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 20:40:16 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 20:40:16 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.000976 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.492578 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.002976 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.472446 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-28 22:40:20 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.00504 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.50188 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.008199 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.43347 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-29 01:02:28 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.028271 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 08:18:22 -0500 Ferks-MBP.local (4510)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-29 08:18:22 -0500 Ferks-MBP.local (4510)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.008572 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 08:18:22 -0500 Ferks-MBP.local (4469)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-29 08:18:22 -0500 Ferks-MBP.local (4469)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.010167 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-29 09:35:19 -0500 Ferks-MBP.local (4469)] INFO : Starting Agent shutdown
+[2016-01-29 09:35:19 -0500 Ferks-MBP.local (4510)] INFO : Starting Agent shutdown
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Environment: development
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Dispatcher: webrick
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Application: My Application (Development)
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing ActiveJob instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Net instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Rails 4 view instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-30 11:07:55 -0500 Ferks-MBP.local (7604)] INFO : Finished instrumentation
+[2016-01-30 11:07:56 -0500 Ferks-MBP.local (7604)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-01-30 11:07:57 -0500 Ferks-MBP.local (7604)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-30 12:43:52 -0500 Ferks-MBP.local (7604)] INFO : Starting Agent shutdown
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Environment: development
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : No known dispatcher detected.
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Application: My Application (Development)
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing ActiveJob instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Net instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Rails 4 view instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-31 19:15:04 -0500 Ferks-MBP.local (10949)] INFO : Finished instrumentation
+[2016-01-31 19:15:06 -0500 Ferks-MBP.local (10949)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-31 19:15:28 -0500 Ferks-MBP.local (10965)] INFO : Starting Agent shutdown
+[2016-01-31 19:25:25 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:25:25 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069764 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:25:55 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:25:55 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.063342 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:26:36 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:26:36 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.07112 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:27:06 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:27:06 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.030343 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:27:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:27:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069267 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:28:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:28:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.000383 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:28:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:28:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.045829 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:29:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:29:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.055071 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:29:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:29:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.06951 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:30:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:30:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069856 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:30:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:30:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073005 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:31:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:31:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.072966 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:31:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:31:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.020819 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:32:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:32:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.075428 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:32:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:32:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.068657 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:33:07 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 19:33:07 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.055077 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 19:33:37 -0500 Ferks-MBP.local (10949)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 19:33:37 -0500 Ferks-MBP.local (10949)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069483 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Environment: development
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : No known dispatcher detected.
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Application: My Application (Development)
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing ActiveJob instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Net instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Rails 4 view instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-31 20:03:52 -0500 Ferks-MBP.local (11131)] INFO : Finished instrumentation
+[2016-01-31 20:03:53 -0500 Ferks-MBP.local (11131)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-31 20:04:03 -0500 Ferks-MBP.local (11117)] INFO : Starting Agent shutdown
+[2016-01-31 20:04:04 -0500 Ferks-MBP.local (10949)] INFO : Starting Agent shutdown
+[2016-01-31 20:04:26 -0500 Ferks-MBP.local (11154)] INFO : Starting Agent shutdown
+[2016-01-31 20:05:53 -0500 Ferks-MBP.local (11170)] INFO : Starting Agent shutdown
+[2016-01-31 20:10:51 -0500 Ferks-MBP.local (11131)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 20:10:51 -0500 Ferks-MBP.local (11131)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 0.000996 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 21:37:29 -0500 Ferks-MBP.local (11131)] INFO : Starting Agent shutdown
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Reading configuration from config/newrelic.yml (/Users/kferk/Desktop/ap_test)
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Environment: development
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : No known dispatcher detected.
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Application: My Application (Development)
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing ActiveJob instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Net instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Rails 4 view instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-31 21:46:55 -0500 Ferks-MBP.local (11663)] INFO : Finished instrumentation
+[2016-01-31 21:46:57 -0500 Ferks-MBP.local (11663)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1224475/applications/13445523
+[2016-01-31 21:47:01 -0500 Ferks-MBP.local (11681)] INFO : Starting Agent shutdown
+[2016-01-31 21:47:18 -0500 Ferks-MBP.local (11685)] INFO : Starting Agent shutdown
+[2016-01-31 21:48:29 -0500 Ferks-MBP.local (11695)] INFO : Starting Agent shutdown
+[2016-01-31 22:11:15 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:11:15 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.070666 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:11:46 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:11:46 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.072035 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:12:27 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:12:27 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073575 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:12:57 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:12:57 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.071709 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:13:27 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:13:27 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.071841 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:36:02 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:36:02 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073777 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:36:57 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:36:57 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069496 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:37:27 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:37:27 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.067464 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:37:57 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:37:57 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.072811 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:38:27 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:38:27 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073253 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:38:57 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:38:57 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.074057 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:39:27 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:39:27 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.052999 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:39:57 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:39:57 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.07415 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:40:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:40:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073409 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:40:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:40:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.065437 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:41:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:41:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.074376 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:41:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:41:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.026433 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:42:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:42:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.002272 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:42:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:42:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073763 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:43:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:43:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069592 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:43:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:43:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069155 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:44:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:44:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073486 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:44:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:44:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.072963 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:45:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:45:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.068324 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:45:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:45:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.0028 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:46:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:46:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.06479 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:46:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:46:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.073116 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:47:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:47:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.068628 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:47:58 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:47:58 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.009911 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:48:28 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:48:28 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.070152 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:48:59 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:48:59 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.059387 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:49:29 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:49:29 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069803 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:49:59 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:49:59 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.070753 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:50:29 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:50:29 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.074024 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:50:59 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:50:59 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069848 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:51:29 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:51:29 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.067188 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:51:59 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-31 22:51:59 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.072657 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 22:52:29 -0500 Ferks-MBP.local (11663)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-31 22:52:29 -0500 Ferks-MBP.local (11663)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443 after 30.069478 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-31 23:36:46 -0500 Ferks-MBP.local (11699)] INFO : Starting Agent shutdown
